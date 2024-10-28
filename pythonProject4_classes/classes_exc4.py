@@ -1,3 +1,4 @@
+'''
 class MyClass():
     pass
 
@@ -61,9 +62,12 @@ print(type(cookie).__name__)
 
 name = 'pIoTr kLeJmEnT i kOOrnI aka sIIvA'
 
+
+print(name)
 print(name.capitalize())
 print(name.upper())
 print(name.lower())
+
 
 text = 'Hej {name}, co u Was, wpadacie do {name1}, bedzie gral {name2}'
 new_text = text.replace('{name}' , 'Bolek')
@@ -85,7 +89,7 @@ class ListOne():
 list_one = ListOne()
 list_one.list()
 
-
+'''
 
 
 
