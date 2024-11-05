@@ -1,4 +1,5 @@
-import random  #import metody random
+import random
+import pdb#import metody random
 
 #pokazyje tytuł wypisany wielkimi literami
 title = 'To jest program - Zgadnija liczbę'
@@ -36,4 +37,4 @@ print(f'Brawo! ta liczba to {guessed_number}')
 print(f'Potrzebowałeś(aś) {tries} ruchów')
 input('Naciśnij Enter abyu zakończyć')
 
-
+pdb.set_trace()
